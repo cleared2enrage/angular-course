@@ -11,6 +11,10 @@ export class RecipeService {
         new Recipe('A Test Recipe', 'This is simply a test', 'http://lorempixel.com/400/200/', [
             new Ingredient('Tomatoes', 4),
             new Ingredient('Spaghetti', 1)
+        ]),
+        new Recipe('A Second Recipe', 'This is simply a test', 'http://lorempixel.com/400/300/', [
+            new Ingredient('Apples', 4),
+            new Ingredient('Oranges', 4)
         ])
     ];
 
