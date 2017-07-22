@@ -6,11 +6,11 @@ import { ShoppingListService } from "../shopping-list/shopping-list.service";
 @Injectable()
 export class RecipeService {
     private recipes: Recipe[] = [
-        new Recipe('A Test Recipe', 'This is simply a test', 'http://lorempixel.com/400/200/', [
+        new Recipe('A Test Recipe', 'This is simply a test', 'http://lorempixel.com/400/200/food', [
             new Ingredient('Tomatoes', 4),
             new Ingredient('Spaghetti', 1)
         ]),
-        new Recipe('A Second Recipe', 'This is simply a test', 'http://lorempixel.com/400/300/', [
+        new Recipe('A Second Recipe', 'This is simply a test', 'http://lorempixel.com/400/300/food', [
             new Ingredient('Apples', 4),
             new Ingredient('Oranges', 4)
         ])
