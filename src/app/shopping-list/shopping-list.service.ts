@@ -34,6 +34,11 @@ export class ShoppingListService {
         this.notifyIngredientsChanged();
     }
 
+    deleteIngredient(index: number) {
+        this.ingredients.splice(index, 1);
+        this.notifyIngredientsChanged();
+    }
+
     private notifyIngredientsChanged() {
         this.ingredientsChanged.next(this.getIngredients());
     }
